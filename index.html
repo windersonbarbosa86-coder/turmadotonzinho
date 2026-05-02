@@ -12,7 +12,7 @@ body {
 
 #container { width: 1000px; margin: auto; }
 
-#banner { height: 150px; background: url('banner.gif'); border: 5px solid black; }
+#banner { height: 150px; background: url('banner.gif'); background-size: contain; background-color: green; border: 5px solid black; }
 
 #topbar { display: flex; margin-top: 10px; }
 
@@ -38,13 +38,15 @@ body {
 </head>
 <body><div id="container"><div id="banner"></div><div id="topbar">
     <div id="logo"></div>
+    <img src="logo.png" width="150">
+</div>
     <div id="pagetitle">Página Inicial</div>
 </div><div id="main"><div id="sidebar">
-    <div class="button">Início</div>
-    <div class="button">Personagens</div>
-    <div class="button">Jogos</div>
-    <div class="button">Animações</div>
-    <div class="button">Downloads</div><div id="stamps">
+    <a href="início.html" class="button">Início</div>
+    <a href="personagens.html" class="button">Personagens</div>
+    <a href="jogos.html" class="button">Jogos</div>
+    <a href="animacoes.html" class="button">Animações</div>
+    <a href="downloads.html" class="button">Downloads</div><div id="stamps">
     <img src="stamp1.gif" class="gif">
     <img src="stamp2.gif" class="gif">
     <img src="stamp3.gif" class="gif">
